@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap" rel="stylesheet">
+
+    <title>NETFLIX</title>
+</head>
+<style>
+    /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+ 
+}
+section
+{
+    background: url(./netflik2.jpg);
+    height: 100vh;
+    box-shadow: 0 0 300px 100px rgba(0,0,0,0.9) inset;
+
+}
+ section .nav
+{
+   
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+section .nav h1
+{ 
+    
+    font-size: 40px;
+    color: hwb(0 0% 0%);
+    font-family: 'Gabarito', cursive;
+    font-weight:800;
+
+    
+}
+section .nav .sign_in h2:nth-child(1)
+{
+    color:white ;
+   height: 40px;
+   width: 150px;
+    background: transparent;
+  font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 30px;
+    border: 3px solid white;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 5px rgba(0,0,0,0.9) inset;
+}
+
+
+section .nav .sign_in h2:nth-child(2)
+{
+    color: white;
+    padding: 5px 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: red;
+    height: 35px;
+   width: 80px;
+   margin-left: 10px;
+   margin-top: 2px;
+   border-radius: 5px;
+   border: none;
+cursor: pointer;
+}
+
+section .nav .sign_in
+{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.font
+{
+   padding: 180px 10%;
+   color: white;
+}
+.font button
+{
+    background-color: #ff0000;
+}
+section .font
+{
+    text-align: center;
+}
+section .font h2
+{
+    font-size: 40px;
+    text-align: center;
+   font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+section .font p
+{
+    padding-top: 10px;
+    color: white;
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+}
+section .font h4
+{
+    padding-top:10px;
+    font-size:100% ;
+    font-family: 'Poppins', sans-serif;
+}
+.search
+{
+    margin-top: 5px;
+}
+input
+{
+  height: 60px;
+  width: 390px;
+    border: none;
+    text-align: left;
+    margin-right: 10px;
+    border: 3px solid white;
+    background-color: transparent;
+    box-shadow: 0 0 100px 5px rgba(0,0,0,0.9) inset;
+    color: white;
+}
+.search button
+{
+    font-size: 25px;
+    font-weight :600;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 5px;
+    height: 60px;
+    color: white;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+</style>
+<body>
+    <section>
+
+        <nav class="nav">
+            <h1>NETFLIX</h1>
+            <div class="sign_in">
+                <h2>English</h2>
+                <h2>Sign In</h2>
+            </div>
+        </nav>
+
+        <div class="font">
+            <h2>Unlimited movies,TV shows and more</h2>
+            <p>Watch anywhere.Cancel anytime.</p>
+            <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            <div class="search">
+                <input type="email" name="" id="" placeholder="Email address">
+                <button>Get Started ></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
